@@ -1,5 +1,5 @@
 
-<img src="{{$comic->thumb}}" alt="">
+<img src="{{$comic->thumb}}" alt="Comic Cover">
 <h2>{{$comic->title}}</h2>
 <p>{{$comic->description}}</p>
 <p>{{$comic->price}}</p>
