@@ -19,17 +19,21 @@
   <button>
   <a href="{{route('comics.show', $comic->id)}}">Visualizza dettagli</a>
   </button>
-  
+
 </div>
 
 @empty
   <h2>Nessun comic</h2>
 @endforelse
+<div class="add-card">
+
+    <button class="add-button">
+        <a href="{{route('comics.create')}}">Aggiungi Comic</a>
+    </button>
 </div>
 
-<div class="card">
 
-<a href="{{route('comics.create')}}">Aggiungi Comic</a>
+
 
 </div>
 </body>

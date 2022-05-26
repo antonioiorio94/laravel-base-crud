@@ -15,6 +15,7 @@ body {
     flex-wrap: wrap;
     width: 70%;
     margin: 3rem auto;
+    justify-content: center;
     .card {
         display: flex;
         flex-direction: column;
@@ -38,6 +39,17 @@ body {
                 color: #375ba9;
                 font-weight: bold;
             }
+        }
+    }
+    .add-button {
+        background: #375ba9;
+        border: 0;
+        padding: 1rem;
+        border-radius: 20px;
+        a {
+            text-decoration: none;
+            color: #fca311;
+            font-weight: bold;
         }
     }
 }
