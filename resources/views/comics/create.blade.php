@@ -21,6 +21,21 @@
     <input type="text" name="price"/>
 </div>
 
+<div>
+    <label for="type">Tipo:</label>
+    <input type="text" name="type"/>
+</div>
+
+<div>
+    <label for="series">Serie:</label>
+    <input type="text" name="series"/>
+</div>
+
+<div>
+    <label for="sale_date">Data:</label>
+    <input type="date" name="sale_date"/>
+</div>
+
 
 
 <button type="submit">Salva</button>
