@@ -27,6 +27,11 @@
 @endforelse
 </div>
 
+<div class="card">
+
+<a href="{{route('comics.create')}}">Aggiungi Comic</a>
+
+</div>
 </body>
 </html>
 
