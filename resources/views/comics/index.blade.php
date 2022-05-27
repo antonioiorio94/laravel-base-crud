@@ -19,6 +19,9 @@
   <button>
   <a href="{{route('comics.show', $comic->id)}}">Visualizza dettagli</a>
   </button>
+  <button>
+  <a href="{{route('comics.edit', $comic->id)}}">Modifica</a>
+  </button>
 
 </div>
 
