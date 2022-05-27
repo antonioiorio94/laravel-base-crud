@@ -40,5 +40,9 @@
 
 
     <button type="submit">Salva</button>
+    <button>
+        <a href="{{route('comics.index')}}">Annulla</a>
+    </button>
+
 
     </form>

@@ -40,4 +40,6 @@
 
 <button type="submit">Salva</button>
 
+<a href="{{route('comics.index')}}">Indietro</a>
+
 </form>
